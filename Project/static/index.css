@@ -1,0 +1,38 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+  }
+h1,p,footer,header,html,body,form,div{padding: 0px;margin: 0px;}
+a {text-decoration-line: none;color: whitesmoke;}
+header{background-color: black;}
+.onback{width: 65%;margin-left: auto;margin-right:auto;padding-top: 25px;padding-bottom: 25px;}
+.onback > h1{width: 100%;font-size: 3.5em;text-align: center;}
+.arts{display: flex;flex-flow: row;font-size: 1.5em;width: 50%;margin-left: auto;margin-right: auto;}
+.arts > p{padding-left: 35px;padding-right: 35px;padding-top: 10px;padding-bottom: 10px;text-align: center;}
+footer{background-color: black;}
+footer >p {color: whitesmoke;font-size: 1.7em;text-align: center;padding-top: 40px;padding-bottom: 40px;}
+.imag{width: 57%;margin-left: auto;margin-right: auto;}
+body{background-color:#08012e}
+.imag > img{max-width: 100%;}
+.djangoforms{width: 40%;margin-left: auto;margin-right: auto;padding-top: 40px;padding-bottom: 40px;}
+.djangoforms > h1{text-align: center;color:whitesmoke;padding-bottom :25px;}
+form >p {padding: 15px;}
+form > p > label {font-size: 1.75em;padding-right: 15px;}
+form >p > input{border-radius: 15px;width: 100%;height: 25px;background-color: #af4d80;font-size: 20px;}
+form >p > input:hover,{background-color: whitesmoke;}
+form > p > span{display: block;font-size: 1.25em;}
+.boxin{display: block;width: 20%;margin-left: auto;margin-right: auto;padding-top: 15px;padding-bottom: 15px;border-radius: 15px;
+font-size: 1.5em;margin-top: 25px;}
+.boxin:hover{background-color: black;color: whitesmoke;}
+.signup{border: 2px solid black;padding: 15px;border-top-right-radius: 35px;border-bottom-left-radius: 35px;background-color: #af4d80}
+.signup:hover{border-radius: 35px;}
+.forlogo{position: absolute;width: 20vh;height: 20vh;top: 0;left: 20em;}
+.forlogos{position: absolute;width: 20vh;height: 20vh;top: 0;right: 20em;}
+.iconfonts{width: 20%;margin-left: auto;margin-right: auto;font-size: 30px;color: whitesmoke;padding-bottom: 25px;}
+.iconfonts > a{padding-left: 20px;padding-right: 15px;}
+form > p > textarea{display: block;width: 100%;border-radius: 15px;background-color: #af4d80;font-size: 25px;}
+form > p > textarea:hover{background-color: whitesmoke;}
+.content{width: 45%;border: 2px solid black;
+  padding: 10px;margin-top: 20px;margin-bottom: 20px;margin-right: 25px;background-color: whitesmoke;font-size: 2em;text-align: center;}
+.content:hover ,.content >p > img:hover{border-radius: 25px;}
+.maindiv{width:80%;margin-left: auto;margin-right: auto;display: flex;flex-flow: row wrap;}

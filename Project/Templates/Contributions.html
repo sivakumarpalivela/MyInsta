@@ -1,0 +1,16 @@
+{% extends 'Index.html' %}
+{% load staticfiles %}
+{% block block_content%}
+<body>
+    {% if contrib_object %}
+        <div class="maindiv">
+        {% for object in contrib_object %}
+            <div class="content">
+            <p><img src="{{object.Select_Your_Image.url}}" style="width:100%;"/></p>
+            <p>{{ object.Description }}</p>
+            </div>
+        {% endfor %}
+        </div>
+    {% endif %}
+</body>
+{% endblock %}

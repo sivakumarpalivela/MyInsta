@@ -1,0 +1,26 @@
+{% extends 'Index.html' %}
+{% load staticfiles %}
+{% block block_content%}
+    
+    <body>
+        <div class="djangoforms">
+        <h1>Login Here !</h1>
+        <form method="post" action="{% url 'AppBasic:user_login' %}" class="signup">
+            {% csrf_token %}
+
+            <p>
+            <label for="username" >UserName:</label>
+            <input type="text" name="username" placeholder="Enter Username"/>
+            </p>
+
+            <p>
+            <label for="passowrd">Password:</label>
+            <input type="password" name="password"/>
+            </p>    
+
+            <input type="submit" value="Login" class="boxin"/>
+
+        </form>
+        </div>
+    </body>
+{% endblock %}

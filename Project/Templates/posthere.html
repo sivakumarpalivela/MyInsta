@@ -1,0 +1,18 @@
+{% extends 'Index.html' %}
+{% load staticfiles %}
+{% block block_content %}
+    <body>
+        {% if register %}
+            <h1>Thank you for post</h1>
+        {% else %}
+        <div class="djangoforms">
+            <h1>Share the Images u Love </h1>
+            <form method="POST" enctype="multipart/form-data" class="signup">
+                {% csrf_token %}
+                {{ datasmodel.as_p }}
+                <input type="submit" value="Post It!" class="boxin"/>
+            </form>
+        </div>
+        {% endif %}
+    </body>
+{% endblock %}
